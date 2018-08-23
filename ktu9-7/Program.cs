@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -66,7 +66,7 @@ namespace ktu9_7
             vardiklisSum = c * z;
             skaiciusSum = skaitiklisSum / vardiklisSum;
             skaitiklisSum = skaitiklisSum % vardiklisSum;
-            if(skaitiklisSum == 0)
+            if (skaitiklisSum == 0)
             {
                 vardiklisSum = 0;
             }
@@ -87,7 +87,7 @@ namespace ktu9_7
             vardiklisSkirt = c * z;
             skaiciusSkirt = skaitiklisSkirt / vardiklisSkirt;
             skaitiklisSkirt = skaitiklisSkirt % vardiklisSkirt;
-            if(skaitiklisSkirt == 0)
+            if (skaitiklisSkirt == 0)
             {
                 vardiklisSkirt = 0;
             }
@@ -116,7 +116,7 @@ namespace ktu9_7
                 file.WriteLine(string.Format("{0,-12}{1,-12}{2,-12}{3}", "vienas", "du", "Suma", "Skirtumas"));
                 for (int i = 0; i < eiluciuSkaicius; i++)
                 {
-                    file.WriteLine("{0,-12}{1,-12}{2,-12}{3}", duomenys[i].skaicius1 + " " + duomenys[i].skaitiklis1 + "/" 
+                    file.WriteLine("{0,-12}{1,-12}{2,-12}{3}", duomenys[i].skaicius1 + " " + duomenys[i].skaitiklis1 + "/"
                         + duomenys[i].vardiklis1,
                         duomenys[i].skaicius2 + " " + duomenys[i].skaitiklis2 + "/" + duomenys[i].vardiklis2,
                         rezultatai[i].skaiciusSuma + " " + rezultatai[i].skaitiklisSuma + "/" + rezultatai[i].vardiklisSuma,
