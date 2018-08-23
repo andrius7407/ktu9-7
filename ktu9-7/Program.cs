@@ -62,7 +62,6 @@ namespace ktu9_7
             int x = duomenys[i].skaicius2;
             int y = duomenys[i].skaitiklis2;
             int z = duomenys[i].vardiklis2;
-
             skaitiklisSum = (a * c + b) * z + (x * z + y) * c;
             vardiklisSum = c * z;
             skaiciusSum = skaitiklisSum / vardiklisSum;
